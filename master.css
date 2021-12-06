@@ -1,0 +1,155 @@
+@import url('https://cdn.rawgit.com/moonspam/NaunmSquara/master/nanumsquar.css');
+
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+header{
+  width: 100%;
+  height: 300px;
+  background-color: #CCCCCC;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav{
+  width: 1100px;
+  height: 80px;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul li{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul li a{
+  width: 204px;
+  height: 77px;
+  color: #313131;
+  text-transform: uppercase;
+  font-family: 'NanumSquarBold', sans-serif;
+  font-size: 1.05em;
+  letter-spacing: -0.05em;
+  transition: 1s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -25px;
+}
+
+ul li a:hover{
+  color: #000000;
+  font-size: 1.2em;
+  transition: 1s;
+  background-image: url('img/01_button.png');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu1{
+  width: 100%;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -95px;
+}
+
+.line{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu2{width: 300px;}
+.menu3{width: 300px;}
+.menu4{width: 300px;}
+.menu5{width: 300px;}
+
+section{
+  width: 100%;
+  height: 2700px;
+  background-color: #CCCCCC;
+}
+
+.main{
+  width: 100%;
+  height: 600px;
+  background-image: url('img/01_bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -46px;
+}
+
+.main img{
+  margin-left: 800px;
+}
+
+.cont1{
+  background-image: url('img/02_bg.png');
+}
+.cont2{
+  background-image: url('img/03_bg.png');
+}
+.cont3{
+  background-image: url('img/04_bg.png');
+}
+.cont4{
+  background-image: url('img/05_bg.png');
+}
+
+.cont_total{
+  width: 100%;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.cont1 img{
+  margin-right: 700px;
+}
+.cont2 img{
+  margin-left: 700px;
+}
+.cont3 img{
+  margin-right: 700px;
+}
+.cont4 img{
+  margin-left: 700px;
+}
+
+footer{
+  width: 100%;
+  height: 80px;
+  background-color: #666666;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #CBCBCB;
+  font-family: 'NanumSquarBold', sans-serif;
+  font-size: 0.85em;
+  letter-spacing: -0.05em;
+}
